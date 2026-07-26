@@ -1,0 +1,25 @@
+# Facts by predicate
+
+- **base** — `elena-voss` = Berlin, Germany — `memory/facts/elena-voss/base.md`
+- **collaborator** — `concordance` = marta-delvaux — `memory/facts/concordance/collaborator.md`
+- **component-of** — `5s` = kaizen — 5S is typically implemented together with the kaizen philosophy of gradual, continuous improvement. — `memory/facts/5s/component-of.md`
+- **component-of** — `gemba` = kaizen — the gemba principle applies kaizen's continuous-improvement philosophy specifically to the physical place where work is performed. — `memory/facts/gemba/component-of.md`
+- **component-of** — `pdca` = kaizen — PDCA is one of the core cycles kaizen uses to drive and verify continuous improvement. — `memory/facts/pdca/component-of.md`
+- **definition** — `5s` = Five-step workplace organization method: Seiri (sorting), Seiton (systematic arrangement/order), Seiso (cleanliness), Seiketsu (standardization), Shitsuke (sustaining/self-discipline). — `memory/facts/5s/definition.md`
+- **definition** — `gemba` = Japanese for "the actual place where work happens." To fully understand a situation, one must go to gemba, gather facts, and make decisions on the spot. Governed by 5 rules of gemba management: (1) go to gemba when a problem arises, (2) check gembutsu (equipment/environment), (3) make decisions only at gemba, (4) find the root cause, (5) standardize to prevent recurrence. — `memory/facts/gemba/definition.md`
+- **definition** — `kaizen` = Continuous improvement ("непрерывное совершенствование") across work, business, and personal life; popularized worldwide by Masaaki Imai's 1986 book "Kaizen: The Key to Japan's Competitive Success". — `memory/facts/kaizen/definition.md`
+- **definition** — `lean-production` = Toyota-developed production system aimed at eliminating waste (muda) while maximizing customer value; incorporates kaizen, 5S, Just-in-Time, and Jidoka among its core methods. — `memory/facts/lean-production/definition.md`
+- **definition** — `pdca` = Plan-Do-Check-Act cycle (also called the Deming-Shewhart cycle), paired with SDCA (Standardize-Do-Check-Act) as the two core management cycles underlying kaizen. — `memory/facts/pdca/definition.md`
+- **employer** — `elena-voss` = Gemäldegalerie — `memory/facts/elena-voss/employer.md`
+- **language** — `elena-voss` = German — `memory/facts/elena-voss/language.md`
+- **popularized-by** — `gemba` = masaaki-imai, via his book "Gemba Kaizen: The Key to Reducing Costs and Improving Quality" (~10 years after his first Kaizen book). — `memory/facts/gemba/popularized-by.md`
+- **popularized-by** — `kaizen` = masaaki-imai (note: Imai described and popularized the philosophy via his 1986 book; he did not invent it — kaizen practices predate the book, e.g. Kaoru Ishikawa's QC circles from 1949). — `memory/facts/kaizen/popularized-by.md`
+- **practiced-by** — `gemba` = toyota, whose management system has applied the five gemba rules for several decades. — `memory/facts/gemba/practiced-by.md`
+- **practiced-by** — `kaizen` = toyota, which implements kaizen through small, regular changes at all levels of the organization. — `memory/facts/kaizen/practiced-by.md`
+- **primary-project** — `elena-voss` = concordance — `memory/facts/elena-voss/primary-project.md`
+- **publication-channel** — `strata` = obsidian — `memory/facts/strata/publication-channel.md`
+- **related-concept** — `kaizen` = lean-production — Lean Production was developed by Toyota and incorporates kaizen as one of its core principles. — `memory/facts/kaizen/related-concept.md`
+- **role** — `elena-voss` = Art conservator and pigment researcher — `memory/facts/elena-voss/role.md`
+- **role** — `kaoru-ishikawa` = Quality-control pioneer who founded quality-control (QC) circles in Japan in 1949, an early precursor to the kaizen movement. — `memory/facts/kaoru-ishikawa/role.md`
+- **role** — `masaaki-imai` = Author of "Kaizen: The Key to Japan's Competitive Success" (1986) and "Gemba Kaizen: The Key to Reducing Costs and Improving Quality"; credited with popularizing both the kaizen and gemba terms worldwide. — `memory/facts/masaaki-imai/role.md`
+- **role** — `taiichi-ohno` = Toyota executive credited with formulating the gemba management rules and identifying 7 categories of muda (waste): overproduction, inventory, repair/defects, motion, processing, waiting, transportation. — `memory/facts/taiichi-ohno/role.md`

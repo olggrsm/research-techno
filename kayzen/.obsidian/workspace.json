@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "a8defad7876b1ffb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d74cfec8437d43f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ab7f321fb0388ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/10 принципов гемба кайдзен для лучшей карьеры и жизни.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 принципов гемба кайдзен для лучшей карьеры и жизни"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e0571d9deb9ae897",
+    "type": "split",
+    "children": [
+      {
+        "id": "842abbe4a3cd2db9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57d09cdc350e6c96",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "43926346d2ba194d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f41807ae80a5399e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20e1b79a6ae9068f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7e3aefa9d30f43d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffce2890223b4dcf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clippings/Кайдзен - что это такое в бережливом производстве и философия системы Kaizen.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Кайдзен - что это такое в бережливом производстве и философия системы Kaizen"
+            }
+          },
+          {
+            "id": "b288c596ad578da3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/Кайдзен - что это такое в бережливом производстве и философия системы Kaizen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Кайдзен - что это такое в бережливом производстве и философия системы Kaizen"
+            }
+          },
+          {
+            "id": "17986ef5b37d5924",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "59b2aa9b45809d50",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7f29798ad352ee68",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Clippings/Кайдзен - что это такое в бережливом производстве и философия системы Kaizen.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Кайдзен - что это такое в бережливом производстве и философия системы Kaizen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2ab7f321fb0388ef",
+  "lastOpenFiles": [
+    "memory/_views/by-entity/taiichi-ohno.md",
+    "memory/_views/by-entity/pdca.md",
+    "memory/_views/by-entity/masaaki-imai.md",
+    "memory/_views/by-entity/lean-production.md",
+    "memory/_views/by-entity/kaoru-ishikawa.md",
+    "memory/_views/by-entity/kaizen.md",
+    "memory/_views/by-entity/gemba.md",
+    "memory/_views/by-entity/5s.md",
+    "memory/_transactions/txn-kaizen-clippings-facts-2-20260726t195430z-7953d651.md",
+    "memory/facts/kaoru-ishikawa/role.md",
+    "memory/facts/kaoru-ishikawa",
+    "memory/facts/taiichi-ohno/role.md",
+    "memory/facts/taiichi-ohno",
+    "memory/facts/masaaki-imai/role.md",
+    "memory/facts/masaaki-imai",
+    "memory/facts/lean-production/definition.md",
+    "memory/facts/lean-production",
+    "memory/facts/pdca/definition.md",
+    "memory/facts/pdca/component-of.md",
+    "memory/facts/pdca",
+    "memory/facts/5s/definition.md",
+    "memory/facts/5s/component-of.md",
+    "memory/facts/5s",
+    "memory/facts/gemba/practiced-by.md",
+    "memory/facts/gemba/popularized-by.md",
+    "memory/facts/gemba/definition.md",
+    "memory/facts/gemba/component-of.md",
+    "memory/facts/gemba",
+    "memory/facts/kaizen/related-concept.md",
+    "memory/facts/kaizen/practiced-by.md",
+    "memory/facts/kaizen/popularized-by.md",
+    "memory/facts/kaizen/definition.md",
+    "memory/facts/kaizen",
+    "memory/_staging/txn-kaizen-clippings-facts-2-20260726t195430z-7953d651/memory/facts/kaoru-ishikawa/role.md",
+    "memory/_staging/txn-kaizen-clippings-facts-2-20260726t195430z-7953d651/memory/facts/kaoru-ishikawa",
+    "memory/_staging/txn-kaizen-clippings-facts-2-20260726t195430z-7953d651/memory/facts/taiichi-ohno"
+  ]
+}
