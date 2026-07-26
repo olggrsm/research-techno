@@ -1,13 +1,12 @@
 # Context for AI sessions
 
 ## Who I am
-- **Name:** Elena Voss
-- **Role:** Art conservator and pigment researcher
-- **Base:** Berlin, Germany
+- **Name:** Oleg Gerasimenko
+- **Role:** IT researcher
+- **Base:** Saint-Petersburg
 
 ## Active projects
-- **Concordance** — mapping historical pigment recipes to modern spectroscopic signatures.
-- **Gallery 5 survey** — condition survey of Cranach panels at the Gemäldegalerie.
+- **Kaizen** — method.
 
 ## v4 memory protocol
 - Human-readable narrative lives in `memory/people/`, `memory/projects/`, and `memory/context/`.
