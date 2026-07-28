@@ -1,2 +1,26 @@
 # Records by id
 
+- `fact-5s-component-of` — fact — `memory/facts/5s/component-of.md`
+- `fact-5s-definition` — fact — `memory/facts/5s/definition.md`
+- `fact-gemba-component-of` — fact — `memory/facts/gemba/component-of.md`
+- `fact-gemba-definition` — fact — `memory/facts/gemba/definition.md`
+- `fact-gemba-popularized-by` — fact — `memory/facts/gemba/popularized-by.md`
+- `fact-gemba-practiced-by` — fact — `memory/facts/gemba/practiced-by.md`
+- `fact-hitoshi-kume-role` — fact — `memory/facts/hitoshi-kume/role.md`
+- `fact-kaizen-definition` — fact — `memory/facts/kaizen/definition.md`
+- `fact-kaizen-popularized-by` — fact — `memory/facts/kaizen/popularized-by.md`
+- `fact-kaizen-practiced-by` — fact — `memory/facts/kaizen/practiced-by.md`
+- `fact-kaizen-related-concept` — fact — `memory/facts/kaizen/related-concept.md`
+- `fact-kaoru-ishikawa-role` — fact — `memory/facts/kaoru-ishikawa/role.md`
+- `fact-lean-production-definition` — fact — `memory/facts/lean-production/definition.md`
+- `fact-masaaki-imai-role` — fact — `memory/facts/masaaki-imai/role.md`
+- `fact-muda-definition` — fact — `memory/facts/muda/definition.md`
+- `fact-muda-related-concept` — fact — `memory/facts/muda/related-concept.md`
+- `fact-mura-definition` — fact — `memory/facts/mura/definition.md`
+- `fact-muri-definition` — fact — `memory/facts/muri/definition.md`
+- `fact-pdca-component-of` — fact — `memory/facts/pdca/component-of.md`
+- `fact-pdca-definition` — fact — `memory/facts/pdca/definition.md`
+- `fact-sdca-definition` — fact — `memory/facts/sdca/definition.md`
+- `fact-sdca-related-concept` — fact — `memory/facts/sdca/related-concept.md`
+- `fact-taiichi-ohno-role` — fact — `memory/facts/taiichi-ohno/role.md`
+- `txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd` — transaction — `memory/_transactions/txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd.md`

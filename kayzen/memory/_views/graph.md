@@ -1,1 +1,3 @@
 # Graph
+
+No wikilinks detected.

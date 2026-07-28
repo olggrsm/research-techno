@@ -15,3 +15,15 @@ predicates:
     description: Where a project is published.
   - id: language
     description: Preferred working language.
+  - id: definition
+    description: Short definition of a concept.
+  - id: component-of
+    description: Concept is a component or method within a broader concept.
+  - id: popularized-by
+    description: Person or organization credited with popularizing or formulating a concept.
+  - id: practiced-by
+    description: Organization known to practice or apply a concept.
+  - id: related-concept
+    description: A related but distinct concept.
+  - id: origin
+    description: Historical origin or founding context of a concept.
