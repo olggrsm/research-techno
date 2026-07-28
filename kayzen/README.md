@@ -72,16 +72,16 @@ python3 tools/rebuild_indexes.py
 
 ## Directory structure
 
-| Path | Purpose |
-|------|---------|
-| `memory/facts/` | Atomic typed facts (one per file) |
-| `memory/events/` | Append-only episodic records |
-| `memory/schema/` | YAML schemas, predicates, and role policy |
-| `memory/_transactions/` | Transaction journals/receipts |
-| `memory/_proposals/` | Formal proposals awaiting review |
-| `memory/_reviews/` | Review records (cryptographically bound) |
-| `memory/_staging/` | Isolated staging area (cleared after commit) |
-| `memory/_views/` | Generated views — do not edit |
-| `memory/_indexes/` | Generated lexical and graph indexes — do not edit |
-| `memory/_inbox/` | Legacy v3-compatible operation envelopes |
-| `memory/_ops/applied/` | Applied operation receipts |
+| Path                    | Purpose                                           |
+| ----------------------- | ------------------------------------------------- |
+| `memory/facts/`         | Atomic typed facts (one per file)                 |
+| `memory/events/`        | Append-only episodic records                      |
+| `memory/schema/`        | YAML schemas, predicates, and role policy         |
+| `memory/_transactions/` | Transaction journals/receipts                     |
+| `memory/_proposals/`    | Formal proposals awaiting review                  |
+| `memory/_reviews/`      | Review records (cryptographically bound)          |
+| `memory/_staging/`      | Isolated staging area (cleared after commit)      |
+| `memory/_views/`        | Generated views — do not edit                     |
+| `memory/_indexes/`      | Generated lexical and graph indexes — do not edit |
+| `memory/_inbox/`        | Legacy v3-compatible operation envelopes          |
+| `memory/_ops/applied/`  | Applied operation receipts                        |
