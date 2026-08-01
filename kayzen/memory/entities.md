@@ -93,6 +93,30 @@ entities:
     kind: concept
     display: DORA Metrics
     aliases: [DORA]
+  - id: evolutionary-architecture
+    kind: concept
+    display: Evolutionary Architecture
+    aliases: [эволюционная архитектура, fitness functions]
+  - id: platform-engineering
+    kind: concept
+    display: Platform Engineering
+    aliases: [Internal Developer Platform, IDP]
+  - id: team-topologies
+    kind: concept
+    display: Team Topologies
+    aliases: [Стрим-алайнед команды]
+  - id: continuous-discovery
+    kind: concept
+    display: Continuous Discovery
+    aliases: [непрерывное открытие продукта]
+  - id: sre
+    kind: concept
+    display: Site Reliability Engineering
+    aliases: [SRE]
+  - id: agentic-coding
+    kind: concept
+    display: Agentic Coding
+    aliases: [agentic engineering, AI pair programming]
 ---
 
 # Entities

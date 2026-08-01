@@ -1,13 +1,26 @@
 # Graph
 
+- `memory/insights/agentic-coding-2026.md` → `[[memory/facts/pdca/definition]]`
+- `memory/insights/agentic-coding-2026.md` → `[[memory/insights/ai-assisted-development-2026]]`
 - `memory/insights/ai-assisted-development-2026.md` → `[[memory/facts/pdca/definition]]`
+- `memory/insights/continuous-discovery-2026.md` → `[[memory/facts/gemba/definition]]`
+- `memory/insights/continuous-discovery-2026.md` → `[[memory/insights/requirements-gap-2026]]`
 - `memory/insights/cost-of-change-2026.md` → `[[memory/facts/pdca/definition]]`
 - `memory/insights/dora-metrics-2026.md` → `[[memory/facts/gemba/definition]]`
 - `memory/insights/dora-metrics-2026.md` → `[[memory/facts/mura/definition]]`
 - `memory/insights/dora-metrics-2026.md` → `[[memory/facts/muri/definition]]`
+- `memory/insights/evolutionary-architecture-2026.md` → `[[memory/facts/pdca/definition]]`
+- `memory/insights/evolutionary-architecture-2026.md` → `[[memory/facts/sdca/definition]]`
+- `memory/insights/evolutionary-architecture-2026.md` → `[[memory/insights/technical-debt-2026]]`
+- `memory/insights/platform-engineering-2026.md` → `[[memory/facts/gemba/definition]]`
+- `memory/insights/platform-engineering-2026.md` → `[[memory/facts/sdca/definition]]`
 - `memory/insights/requirements-gap-2026.md` → `[[memory/facts/gemba/definition]]`
 - `memory/insights/safe-criticism-2026.md` → `[[memory/facts/gemba/definition]]`
 - `memory/insights/safe-criticism-2026.md` → `[[memory/facts/sdca/definition]]`
+- `memory/insights/sre-devops-2026.md` → `[[memory/facts/muri/definition]]`
+- `memory/insights/sre-devops-2026.md` → `[[memory/facts/sdca/definition]]`
+- `memory/insights/sre-devops-2026.md` → `[[memory/insights/dora-metrics-2026]]`
+- `memory/insights/team-topologies-2026.md` → `[[memory/facts/muri/definition]]`
 - `memory/insights/technical-debt-2026.md` → `[[memory/facts/muda/definition]]`
 - `memory/insights/technical-debt-2026.md` → `[[memory/facts/muda/related-concept]]`
 - `memory/projects/kaizen-swdev-methodology.md` → `[[memory/_views/by-predicate]]`
