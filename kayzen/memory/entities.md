@@ -57,6 +57,14 @@ entities:
     kind: org
     display: Toyota
     aliases: []
+  - id: toyota-production-system
+    kind: concept
+    display: Toyota Production System
+    aliases: [TPS, Производственная система Тойоты]
+  - id: lean-six-sigma
+    kind: concept
+    display: Lean Six Sigma
+    aliases: []
 ---
 
 # Entities

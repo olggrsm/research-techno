@@ -27,3 +27,6 @@ predicates:
     description: A related but distinct concept.
   - id: origin
     description: Historical origin or founding context of a concept.
+  - id: application-domain
+    description: Domain or context (e.g. personal life, career) where a concept's
+      principles are also applied beyond its original professional/industrial context.

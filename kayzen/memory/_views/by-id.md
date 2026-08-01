@@ -2,17 +2,23 @@
 
 - `fact-5s-component-of` — fact — `memory/facts/5s/component-of.md`
 - `fact-5s-definition` — fact — `memory/facts/5s/definition.md`
+- `fact-5s-origin` — fact — `memory/facts/5s/origin.md`
+- `fact-gemba-application-domain` — fact — `memory/facts/gemba/application-domain.md`
 - `fact-gemba-component-of` — fact — `memory/facts/gemba/component-of.md`
 - `fact-gemba-definition` — fact — `memory/facts/gemba/definition.md`
 - `fact-gemba-popularized-by` — fact — `memory/facts/gemba/popularized-by.md`
 - `fact-gemba-practiced-by` — fact — `memory/facts/gemba/practiced-by.md`
 - `fact-hitoshi-kume-role` — fact — `memory/facts/hitoshi-kume/role.md`
+- `fact-kaizen-application-domain` — fact — `memory/facts/kaizen/application-domain.md`
 - `fact-kaizen-definition` — fact — `memory/facts/kaizen/definition.md`
 - `fact-kaizen-popularized-by` — fact — `memory/facts/kaizen/popularized-by.md`
 - `fact-kaizen-practiced-by` — fact — `memory/facts/kaizen/practiced-by.md`
 - `fact-kaizen-related-concept` — fact — `memory/facts/kaizen/related-concept.md`
 - `fact-kaoru-ishikawa-role` — fact — `memory/facts/kaoru-ishikawa/role.md`
 - `fact-lean-production-definition` — fact — `memory/facts/lean-production/definition.md`
+- `fact-lean-production-related-concept` — fact — `memory/facts/lean-production/related-concept.md`
+- `fact-lean-six-sigma-definition` — fact — `memory/facts/lean-six-sigma/definition.md`
+- `fact-lean-six-sigma-related-concept` — fact — `memory/facts/lean-six-sigma/related-concept.md`
 - `fact-masaaki-imai-role` — fact — `memory/facts/masaaki-imai/role.md`
 - `fact-muda-definition` — fact — `memory/facts/muda/definition.md`
 - `fact-muda-related-concept` — fact — `memory/facts/muda/related-concept.md`
@@ -23,4 +29,7 @@
 - `fact-sdca-definition` — fact — `memory/facts/sdca/definition.md`
 - `fact-sdca-related-concept` — fact — `memory/facts/sdca/related-concept.md`
 - `fact-taiichi-ohno-role` — fact — `memory/facts/taiichi-ohno/role.md`
+- `fact-toyota-production-system-definition` — fact — `memory/facts/toyota-production-system/definition.md`
+- `fact-toyota-production-system-practiced-by` — fact — `memory/facts/toyota-production-system/practiced-by.md`
+- `txn-add-5s-gemba-life-clippi-20260801t144329z-bee27dc1` — transaction — `memory/_transactions/txn-add-5s-gemba-life-clippi-20260801t144329z-bee27dc1.md`
 - `txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd` — transaction — `memory/_transactions/txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd.md`

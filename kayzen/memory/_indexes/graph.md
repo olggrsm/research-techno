@@ -30,6 +30,13 @@ Entity relationship graph derived from fact values and wikilinks. Generated from
 
 - → `kaizen`  (via `memory/facts/lean-production/definition.md`)
 - → `muda`  (via `memory/facts/lean-production/definition.md`)
+- → `muda`  (via `memory/facts/lean-production/related-concept.md`)
+- → `mura`  (via `memory/facts/lean-production/related-concept.md`)
+- → `muri`  (via `memory/facts/lean-production/related-concept.md`)
+
+## lean-six-sigma
+
+- → `lean-production`  (via `memory/facts/lean-six-sigma/related-concept.md`)
 
 ## masaaki-imai
 
@@ -68,3 +75,8 @@ Entity relationship graph derived from fact values and wikilinks. Generated from
 
 - → `gemba`  (via `memory/facts/taiichi-ohno/role.md`)
 - → `muda`  (via `memory/facts/taiichi-ohno/role.md`)
+
+## toyota-production-system
+
+- → `lean-production`  (via `memory/facts/toyota-production-system/definition.md`)
+- → `toyota`  (via `memory/facts/toyota-production-system/practiced-by.md`)
