@@ -65,6 +65,10 @@ entities:
     kind: concept
     display: Lean Six Sigma
     aliases: []
+  - id: kaizen-swdev-methodology
+    kind: project
+    display: Kaizen-методология для разработки ПО
+    aliases: []
 ---
 
 # Entities

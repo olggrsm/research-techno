@@ -31,5 +31,6 @@
 - `fact-taiichi-ohno-role` — fact — `memory/facts/taiichi-ohno/role.md`
 - `fact-toyota-production-system-definition` — fact — `memory/facts/toyota-production-system/definition.md`
 - `fact-toyota-production-system-practiced-by` — fact — `memory/facts/toyota-production-system/practiced-by.md`
+- `kaizen-swdev-methodology` — project — `memory/projects/kaizen-swdev-methodology.md`
 - `txn-add-5s-gemba-life-clippi-20260801t144329z-bee27dc1` — transaction — `memory/_transactions/txn-add-5s-gemba-life-clippi-20260801t144329z-bee27dc1.md`
 - `txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd` — transaction — `memory/_transactions/txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd.md`

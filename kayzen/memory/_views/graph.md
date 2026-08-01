@@ -1,3 +1,3 @@
 # Graph
 
-No wikilinks detected.
+- `memory/projects/kaizen-swdev-methodology.md` → `[[memory/_views/by-predicate]]`
