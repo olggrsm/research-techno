@@ -1,5 +1,11 @@
 # Records by id
 
+- `ai-assisted-development-2026` — insight — `memory/insights/ai-assisted-development-2026.md`
+- `ai-assisted-development-2026-src` — source — `memory/sources/ai-assisted-development-2026.md`
+- `cost-of-change-2026` — insight — `memory/insights/cost-of-change-2026.md`
+- `cost-of-change-2026-src` — source — `memory/sources/cost-of-change-2026.md`
+- `dora-metrics-2026` — insight — `memory/insights/dora-metrics-2026.md`
+- `dora-metrics-2026-src` — source — `memory/sources/dora-metrics-2026.md`
 - `fact-5s-component-of` — fact — `memory/facts/5s/component-of.md`
 - `fact-5s-definition` — fact — `memory/facts/5s/definition.md`
 - `fact-5s-origin` — fact — `memory/facts/5s/origin.md`
@@ -32,5 +38,11 @@
 - `fact-toyota-production-system-definition` — fact — `memory/facts/toyota-production-system/definition.md`
 - `fact-toyota-production-system-practiced-by` — fact — `memory/facts/toyota-production-system/practiced-by.md`
 - `kaizen-swdev-methodology` — project — `memory/projects/kaizen-swdev-methodology.md`
+- `requirements-gap-2026` — insight — `memory/insights/requirements-gap-2026.md`
+- `requirements-gap-2026-src` — source — `memory/sources/requirements-gap-2026.md`
+- `safe-criticism-2026` — insight — `memory/insights/safe-criticism-2026.md`
+- `safe-criticism-2026-src` — source — `memory/sources/safe-criticism-2026.md`
+- `technical-debt-2026` — insight — `memory/insights/technical-debt-2026.md`
+- `technical-debt-2026-src` — source — `memory/sources/technical-debt-2026.md`
 - `txn-add-5s-gemba-life-clippi-20260801t144329z-bee27dc1` — transaction — `memory/_transactions/txn-add-5s-gemba-life-clippi-20260801t144329z-bee27dc1.md`
 - `txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd` — transaction — `memory/_transactions/txn-kaizen-clippings-facts-2-20260728t212457z-bc7f3dcd.md`

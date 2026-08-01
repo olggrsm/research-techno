@@ -69,6 +69,30 @@ entities:
     kind: project
     display: Kaizen-методология для разработки ПО
     aliases: []
+  - id: cost-of-change
+    kind: concept
+    display: Cost of Change Curve
+    aliases: [стоимость изменения требований]
+  - id: technical-debt
+    kind: concept
+    display: Technical Debt
+    aliases: [технический долг]
+  - id: requirements-gap
+    kind: concept
+    display: Business-Requirements Gap
+    aliases: [разрыв бизнес-требований и реализации]
+  - id: safe-framework
+    kind: concept
+    display: Scaled Agile Framework (SAFe)
+    aliases: [SAFe]
+  - id: ai-assisted-development
+    kind: concept
+    display: AI-Assisted Development
+    aliases: [AI-ассистированная разработка]
+  - id: dora-metrics
+    kind: concept
+    display: DORA Metrics
+    aliases: [DORA]
 ---
 
 # Entities
