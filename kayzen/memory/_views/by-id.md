@@ -1,11 +1,16 @@
 # Records by id
 
+- `DEC-001` — decision — `memory/decisions/DEC-001.md`
+- `DEC-002` — decision — `memory/decisions/DEC-002.md`
+- `DEC-003` — decision — `memory/decisions/DEC-003.md`
 - `agentic-coding-2026` — insight — `memory/insights/agentic-coding-2026.md`
 - `agentic-coding-2026-src` — source — `memory/sources/agentic-coding-2026.md`
 - `ai-assisted-development-2026` — insight — `memory/insights/ai-assisted-development-2026.md`
 - `ai-assisted-development-2026-src` — source — `memory/sources/ai-assisted-development-2026.md`
 - `amazon-2026` — insight — `memory/insights/amazon-2026.md`
 - `amazon-2026-src` — source — `memory/sources/amazon-2026.md`
+- `comparative-alignment-2026` — insight — `memory/insights/comparative-alignment-2026.md`
+- `comparative-tension-2026` — insight — `memory/insights/comparative-tension-2026.md`
 - `continuous-discovery-2026` — insight — `memory/insights/continuous-discovery-2026.md`
 - `continuous-discovery-2026-src` — source — `memory/sources/continuous-discovery-2026.md`
 - `cost-of-change-2026` — insight — `memory/insights/cost-of-change-2026.md`
