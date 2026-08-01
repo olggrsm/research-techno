@@ -117,6 +117,26 @@ entities:
     kind: concept
     display: Agentic Coding
     aliases: [agentic engineering, AI pair programming]
+  - id: spotify
+    kind: org
+    display: Spotify
+    aliases: []
+  - id: amazon
+    kind: org
+    display: Amazon
+    aliases: []
+  - id: netflix
+    kind: org
+    display: Netflix
+    aliases: []
+  - id: google
+    kind: org
+    display: Google
+    aliases: []
+  - id: senecaglobal
+    kind: org
+    display: SenecaGlobal
+    aliases: []
 ---
 
 # Entities
