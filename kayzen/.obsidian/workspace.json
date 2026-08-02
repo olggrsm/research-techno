@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPEC-v4.md",
+                "file": "memory/insights/spotify-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SPEC-v4"
+              "title": "spotify-2026"
             }
           }
         ],
@@ -109,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SPEC-v4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SPEC-v4"
+              "title": "Backlinks"
             }
           },
           {
@@ -249,43 +248,43 @@
       "claude-sidebar:New Claude Tab": false
     }
   },
-  "active": "80aab3a210838ca2",
+  "active": "f35ee862dac90456",
   "lastOpenFiles": [
-    "DESCRIPTION.md",
-    "README.md",
-    "CLAUDE.md",
-    "scripts/lint.py",
-    "scripts/compile.py",
-    "scripts/utils.py",
-    "scripts/flush.py",
-    "scripts/query.py",
-    "scripts/config.py",
-    "scripts/scripts/lint.py",
-    "scripts/scripts/compile.py",
-    "scripts/scripts/utils.py",
-    "scripts/scripts/flush.py",
-    "memory/_transactions/txn-add-language-20260701-aabbccdd.md",
-    "memory/facts/concordance/collaborator.md",
-    "memory/facts/strata/publication-channel.md",
-    "memory/facts/elena-voss/role.md",
-    "memory/facts/elena-voss/primary-project.md",
-    "memory/facts/elena-voss/language.md",
-    "memory/facts/elena-voss/employer.md",
-    "memory/facts/elena-voss/base.md",
-    "memory/events/2026-07-01/concordance-milestone.md",
-    "memory/events/2026-05-11/v4-protocol-adoption.md",
-    "memory/_views/by-entity/strata.md",
-    "memory/_views/by-entity/elena-voss.md",
-    "memory/_views/by-entity/concordance.md",
-    "memory/projects/strata.md",
-    "memory/projects/concordance.md",
-    "memory/people/marta-delvaux.md",
-    "memory/people/elena-voss.md",
-    "memory/insights/v4-indexes.md",
-    "memory/decisions/DEC-001-v4-transaction-model.md",
-    "memory/context/research-setup.md",
-    "memory/_views/transactions.md",
-    "memory/_views/timeline.md",
-    "memory/_views/stale.md"
+    "memory/insights/safe-criticism-2026.md",
+    "memory/insights/requirements-gap-2026.md",
+    "memory/insights/platform-engineering-2026.md",
+    "memory/insights/netflix-2026.md",
+    "memory/insights/kaizen-practicing-companies-2026.md",
+    "memory/insights/google-2026.md",
+    "memory/insights/evolutionary-architecture-2026.md",
+    "memory/insights/dora-metrics-2026.md",
+    "memory/insights/cost-of-change-2026.md",
+    "memory/insights/continuous-discovery-2026.md",
+    "memory/insights/comparative-tension-2026.md",
+    "memory/insights/comparative-alignment-2026.md",
+    "memory/insights/amazon-2026.md",
+    "memory/facts/pdca/definition.md",
+    "memory/facts/mura/definition.md",
+    "memory/facts/muda/definition.md",
+    "memory/facts/kaizen/related-concept.md",
+    "memory/facts/kaizen/practiced-by.md",
+    "memory/facts/kaizen/popularized-by.md",
+    "memory/facts/kaizen/definition.md",
+    "memory/facts/kaizen/application-domain.md",
+    "memory/facts/hitoshi-kume/role.md",
+    "memory/facts/5s/origin.md",
+    "memory/facts/5s/definition.md",
+    "memory/facts/5s/component-of.md",
+    "memory/decisions/DEC-003.md",
+    "docs",
+    "memory/projects/kaizen-swdev-methodology.md.tmp.6667.f42d2cfe1777",
+    "memory/insights/kaizen-practicing-companies-2026.md.tmp.6667.05618a674fe9",
+    "memory/insights/netflix-2026.md.tmp.6667.6a3407a3c456",
+    "memory/sources/google-2026.md.tmp.6667.1bb3dabd4eec",
+    "memory/sources/netflix-2026.md.tmp.6667.bba36904e4c5",
+    "memory/insights/safe-criticism-2026.md.tmp.6667.8278e64a3d95",
+    "memory/sources/ai-assisted-development-2026.md.tmp.6667.6c3215d303fc",
+    "memory/sources",
+    "memory/facts/lean-six-sigma"
   ]
 }
