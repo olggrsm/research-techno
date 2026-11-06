@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "fd2d3015d9fed6fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "f81a8335ec7c3b43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84f2716017a6133b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88645d8f7f4fbf61",
+    "type": "split",
+    "children": [
+      {
+        "id": "e325b24e7f60cbb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "faa21e1dc12d6559",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d92ed772cb191f41",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d8749f2abae2f08b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb5c3e30a9006ea6",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcbac387b19d18cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee52d89f5dc7337d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "memory/_views/graph.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1ff105c3adf1cdf9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e7519e6dd7c09595",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1f41862fe274aa58",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "454789903a1eaa87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "memory/_views/graph.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "39c9812c4439603c",
+            "type": "leaf",
+            "state": {
+              "type": "vault-terminal",
+              "state": {},
+              "icon": "bot",
+              "title": "Claude"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 511.21063232421875
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "claude-sidebar:New Claude Tab": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "84f2716017a6133b",
+  "lastOpenFiles": [
+    "memory/decisions/adr-001.md",
+    "memory/_views/graph.md",
+    "memory/_views/adr-graph.md",
+    "memory/_views/conflicts.md",
+    "docs/ADR-001-architecture-approach.md",
+    "memory/_indexes/graph.md",
+    "memory/_views/transactions.md",
+    "memory/_views/proposals.md",
+    "memory/_views/claims.md",
+    "memory/_views/operations.md",
+    "memory/_views/inbox.md",
+    "memory/_views/by-predicate.md",
+    "memory/_views/by-id.md",
+    "memory/decisions/adr-008.md",
+    "memory/decisions/adr-007.md",
+    "memory/decisions/adr-006.md",
+    "memory/decisions/adr-002.md",
+    "memory/decisions/adr-005.md",
+    "memory/decisions/adr-004.md",
+    "memory/decisions/adr-003.md",
+    "memory/decisions",
+    "memory/context/tech-mirrormaker2.md",
+    "memory/context/tech-zenoh.md",
+    "memory/context/tech-pulsar.md",
+    "memory/context/tech-redpanda.md",
+    "memory/context/tech-nats-jetstream.md",
+    "memory/context/tech-kafka.md",
+    "memory/schema/decision-index.schema.yaml",
+    "memory/schema/decision.schema.yaml",
+    "memory/_views/by-entity",
+    "memory/events/2026-11-06",
+    "memory/events",
+    "memory/facts/replication",
+    "memory/facts/k-event",
+    "memory/facts/platform",
+    "memory/facts/node-n3"
+  ]
+}
