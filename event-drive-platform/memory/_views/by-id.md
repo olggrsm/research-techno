@@ -1,5 +1,13 @@
 # Records by id
 
+- `adr-001` — decision — `memory/decisions/adr-001.md`
+- `adr-002` — decision — `memory/decisions/adr-002.md`
+- `adr-003` — decision — `memory/decisions/adr-003.md`
+- `adr-004` — decision — `memory/decisions/adr-004.md`
+- `adr-005` — decision — `memory/decisions/adr-005.md`
+- `adr-006` — decision — `memory/decisions/adr-006.md`
+- `adr-007` — decision — `memory/decisions/adr-007.md`
+- `adr-008` — decision — `memory/decisions/adr-008.md`
 - `autonomy-window` — concept — `memory/context/autonomy-window.md`
 - `backpressure` — concept — `memory/context/backpressure.md`
 - `cloudevents` — concept — `memory/context/cloudevents.md`
@@ -126,6 +134,12 @@
 - `schema-registry` — concept — `memory/context/schema-registry.md`
 - `single-writer` — concept — `memory/context/single-writer.md`
 - `store-and-forward` — concept — `memory/context/store-and-forward.md`
+- `tech-kafka` — concept — `memory/context/tech-kafka.md`
+- `tech-mirrormaker2` — concept — `memory/context/tech-mirrormaker2.md`
+- `tech-nats-jetstream` — concept — `memory/context/tech-nats-jetstream.md`
+- `tech-pulsar` — concept — `memory/context/tech-pulsar.md`
+- `tech-redpanda` — concept — `memory/context/tech-redpanda.md`
+- `tech-zenoh` — concept — `memory/context/tech-zenoh.md`
 - `tension-1` — insight — `memory/insights/tension-1.md`
 - `tension-2` — insight — `memory/insights/tension-2.md`
 - `tension-3` — insight — `memory/insights/tension-3.md`

@@ -1,0 +1,42 @@
+type: object
+required: [type, id, title, status, decision, entities, sources]
+properties:
+  type:
+    const: decision
+  id:
+    type: string
+  title:
+    type: string
+  status:
+    type: string
+    enum: [предложено, принято, отклонено, заменено]
+  supersedes:
+    type: string
+  date:
+    type: string
+  decision:
+    type: string
+  alternatives:
+    type: array
+    items:
+      type: string
+  consequences:
+    type: array
+    items:
+      type: string
+  entities:
+    type: array
+    items:
+      type: string
+  requirements:
+    type: array
+    items:
+      type: string
+  related:
+    type: array
+    items:
+      type: string
+  sources:
+    type: array
+    items:
+      type: string
