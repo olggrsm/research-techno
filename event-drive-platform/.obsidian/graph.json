@@ -1,13 +1,13 @@
 {
-  "collapse-filter": true,
-  "search": "path:memory -path:memory/_views -path:memory/_indexes -path:memory/schema -file:entities",
+  "collapse-filter": false,
+  "search": "path:memory file:/^(adr-00[1-8]|concept-(cell|k-event|node-n[123]|platform|replication))(\\.md)?$/",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.338929564804056,
+  "scale": 1.4329047362720693,
   "close": true
 }
