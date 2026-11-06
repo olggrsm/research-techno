@@ -1,0 +1,22 @@
+type: object
+required: [type, id, summary, occurred_at, entities, sources]
+properties:
+  type:
+    const: event
+  id:
+    type: string
+  occurred_at:
+    type: string
+    format: date-time
+  entities:
+    type: array
+    items:
+      type: string
+  sources:
+    type: array
+    items:
+      type: string
+  derived_facts:
+    type: array
+    items:
+      type: string

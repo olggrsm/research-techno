@@ -1,0 +1,13 @@
+type: object
+required: [type, id, title]
+properties:
+  type:
+    const: concept
+  id:
+    type: string
+  title:
+    type: string
+  sources:
+    type: array
+    items:
+      type: string

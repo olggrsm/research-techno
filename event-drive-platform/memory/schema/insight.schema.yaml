@@ -1,0 +1,17 @@
+type: object
+required: [type, id, title]
+properties:
+  type:
+    const: insight
+  id:
+    type: string
+  title:
+    type: string
+  entities:
+    type: array
+    items:
+      type: string
+  sources:
+    type: array
+    items:
+      type: string

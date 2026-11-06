@@ -1,0 +1,29 @@
+type: object
+required: [type, id, entity, predicate, value, sources]
+properties:
+  type:
+    const: fact
+  id:
+    type: string
+  entity:
+    type: string
+  predicate:
+    type: string
+  value:
+    type: [string, integer, array, object]
+  valid_from:
+    type: [string, "null"]
+    format: date
+  valid_to:
+    type: [string, "null"]
+    format: date
+  recorded_at:
+    type: string
+  confidence:
+    enum: [high, medium, low]
+  sources:
+    type: array
+    items:
+      type: string
+  superseded_by:
+    type: [string, "null"]

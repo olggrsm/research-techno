@@ -1,0 +1,7 @@
+{
+  "userIgnoreFilters": [
+    ".venv/",
+    ".claude/",
+    "tools/"
+  ]
+}

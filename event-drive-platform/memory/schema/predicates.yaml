@@ -1,1 +1,53 @@
-predicates: []
+predicates:
+- id: taut
+  description: Расчётное окно автономной работы узла (T_aut)
+- id: k-buffer
+  description: Требуемый локальный буфер на N0
+- id: k-rate-own
+  description: Собственная устойчивая скорость K-событий узла
+- id: k-volume-own
+  description: Собственный объёмный поток K узла
+- id: event-size-avg
+  description: Средний размер события
+- id: k-rate-total
+  description: Полная скорость K с учётом подчинённых узлов
+- id: k-volume-total
+  description: Полный объёмный поток K с учётом подчинённых узлов
+- id: subordinates
+  description: Состав подчинённых узлов
+- id: k-retention-volume-48h
+  description: Объём K за 48 ч скользящего окна
+- id: expiry-record-volume-48h
+  description: Объём записей об истечении за 48 ч
+- id: k-reserve-logical-x3
+  description: Логический резерв под K с репликацией ×3
+- id: k-reserve-with-margin
+  description: Логический резерв с запасом ×1,5
+- id: k-reserve-physical
+  description: Физический резерв с локальным зеркалом ×2
+- id: k-reserve-physical-margin
+  description: Физический резерв с зеркалом ×2 и запасом ×1,5
+- id: k-local-only-lag-1h
+  description: Объём K, хранимый только локально при lag 1 ч
+- id: replication-outbound
+  description: Исходящий поток репликации на двух соседей
+- id: required-replication-capacity
+  description: Требуемая пропускная способность канала для догонки
+- id: k-validity
+  description: Срок актуальности команды K
+- id: k-refusal-threshold
+  description: Допустимое время простоя до отказа приёма K
+- id: k-retention-window
+  description: Окно хранения K на узле
+- id: k-loss-policy
+  description: Допустимость потери K
+- id: replication-factor
+  description: Коэффициент репликации K
+- id: replication-lag-limit
+  description: Предельное отставание репликации при работающей связи
+- id: replication-catchup-limit
+  description: Предельное время догонки после изоляции
+- id: replication-catchup-requirement
+  description: Условие на пропускную способность при догонке
+- id: primary-node-classes
+  description: Классы узлов, входящие в иерархию
