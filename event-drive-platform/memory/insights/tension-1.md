@@ -4,6 +4,7 @@ id: tension-1
 title: Долговечность и задержка
 sources:
 - docs/eda-platform-requirements.md
+- docs/adr/0008-requirement-tensions.md
 ---
 
 # Напряжение 1: Долговечность и задержка
@@ -13,3 +14,7 @@ sources:
 ## Затронутые требования
 
 - [[r-13]]
+
+## Решение каталога
+
+Снимается ADR-0002 — см. `docs/adr/0008-requirement-tensions.md`.

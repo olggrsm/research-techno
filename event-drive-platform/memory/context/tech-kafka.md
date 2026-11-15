@@ -3,7 +3,7 @@ type: concept
 id: tech-kafka
 title: Apache Kafka 4.x (KRaft)
 sources:
-- docs/ADR-001-architecture-approach.md
+- docs/adr/0003-event-bus-technology.md
 ---
 
 # Apache Kafka 4.x (KRaft)

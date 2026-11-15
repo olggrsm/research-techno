@@ -4,6 +4,7 @@ id: tension-9
 title: Команды K на обеих сторонах разделения
 sources:
 - docs/eda-platform-requirements.md
+- docs/adr/0008-requirement-tensions.md
 ---
 
 # Напряжение 9: Команды K на обеих сторонах разделения
@@ -13,3 +14,7 @@ sources:
 ## Затронутые требования
 
 - (нет прямых ссылок)
+
+## Решение каталога
+
+Снимается ADR-0001 и записью `adr-006` — см. `docs/adr/0008-requirement-tensions.md`.

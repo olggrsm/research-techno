@@ -4,6 +4,7 @@ id: tension-2
 title: Автономность и безопасность
 sources:
 - docs/eda-platform-requirements.md
+- docs/adr/0008-requirement-tensions.md
 ---
 
 # Напряжение 2: Автономность и безопасность
@@ -13,3 +14,7 @@ sources:
 ## Затронутые требования
 
 - (нет прямых ссылок)
+
+## Решение каталога
+
+Снимается ADR-0005 — см. `docs/adr/0008-requirement-tensions.md`.

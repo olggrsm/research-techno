@@ -3,7 +3,7 @@ type: concept
 id: tech-mirrormaker2
 title: MirrorMaker 2
 sources:
-- docs/ADR-001-architecture-approach.md
+- docs/adr/0003-event-bus-technology.md
 ---
 
 # MirrorMaker 2

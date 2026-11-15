@@ -3,7 +3,7 @@ type: concept
 id: tech-nats-jetstream
 title: NATS JetStream + leaf nodes
 sources:
-- docs/ADR-001-architecture-approach.md
+- docs/adr/0003-event-bus-technology.md
 ---
 
 # NATS JetStream + leaf nodes

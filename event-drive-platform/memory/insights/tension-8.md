@@ -4,6 +4,7 @@ id: tension-8
 title: Команды K и актуальность
 sources:
 - docs/eda-platform-requirements.md
+- docs/adr/0008-requirement-tensions.md
 ---
 
 # Напряжение 8: Команды K и актуальность
@@ -13,3 +14,7 @@ sources:
 ## Затронутые требования
 
 - (нет прямых ссылок)
+
+## Решение каталога
+
+Снимается ADR-0001 — см. `docs/adr/0008-requirement-tensions.md`.

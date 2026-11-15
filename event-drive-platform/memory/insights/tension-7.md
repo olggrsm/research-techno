@@ -4,6 +4,7 @@ id: tension-7
 title: P2P-обмен и долговечный журнал
 sources:
 - docs/eda-platform-requirements.md
+- docs/adr/0008-requirement-tensions.md
 ---
 
 # Напряжение 7: P2P-обмен и долговечный журнал
@@ -13,3 +14,7 @@ Peer-to-peer системы (Zenoh) хорошо дают горизонталь
 ## Затронутые требования
 
 - (нет прямых ссылок)
+
+## Решение каталога
+
+Снимается ADR-0007 — см. `docs/adr/0008-requirement-tensions.md`.

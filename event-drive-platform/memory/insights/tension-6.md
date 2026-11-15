@@ -4,6 +4,7 @@ id: tension-6
 title: Ёмкость и длительность изоляции
 sources:
 - docs/eda-platform-requirements.md
+- docs/adr/0008-requirement-tensions.md
 ---
 
 # Напряжение 6: Ёмкость и длительность изоляции
@@ -13,3 +14,7 @@ sources:
 ## Затронутые требования
 
 - [[r-14]]
+
+## Решение каталога
+
+Снимается ADR-0004 — см. `docs/adr/0008-requirement-tensions.md`.

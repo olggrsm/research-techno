@@ -3,7 +3,7 @@ type: concept
 id: tech-pulsar
 title: Apache Pulsar
 sources:
-- docs/ADR-001-architecture-approach.md
+- docs/adr/0003-event-bus-technology.md
 ---
 
 # Apache Pulsar

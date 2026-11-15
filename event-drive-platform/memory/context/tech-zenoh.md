@@ -3,7 +3,7 @@ type: concept
 id: tech-zenoh
 title: Zenoh
 sources:
-- docs/ADR-001-architecture-approach.md
+- docs/adr/0007-horizontal-links.md
 ---
 
 # Zenoh

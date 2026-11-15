@@ -8,6 +8,8 @@
 - `adr-006` — decision — `memory/decisions/adr-006.md`
 - `adr-007` — decision — `memory/decisions/adr-007.md`
 - `adr-008` — decision — `memory/decisions/adr-008.md`
+- `adr-009` — decision — `memory/decisions/adr-009.md`
+- `adr-010` — decision — `memory/decisions/adr-010.md`
 - `autonomy-window` — concept — `memory/context/autonomy-window.md`
 - `backpressure` — concept — `memory/context/backpressure.md`
 - `cloudevents` — concept — `memory/context/cloudevents.md`

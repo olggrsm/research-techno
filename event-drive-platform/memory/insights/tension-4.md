@@ -4,6 +4,7 @@ id: tension-4
 title: Порядок и масштаб
 sources:
 - docs/eda-platform-requirements.md
+- docs/adr/0008-requirement-tensions.md
 ---
 
 # Напряжение 4: Порядок и масштаб
@@ -13,3 +14,7 @@ Kafka share groups (очередная семантика) не гарантир
 ## Затронутые требования
 
 - (нет прямых ссылок)
+
+## Решение каталога
+
+Снимается ADR-0001 и доменным ADR-0003 — см. `docs/adr/0008-requirement-tensions.md`.
