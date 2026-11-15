@@ -26,6 +26,8 @@ load:
   L-E-VOL-SHARE:    {value: 0.1,      unit: ratio,    source: proposed, note: объём E в долях от объёма K, не задан заказчиком}
   L-EVENT-SIZE-N1N2: {value: 100,     unit: KB,       source: derived}
   L-EVENT-SIZE-N3:  {value: 10,       unit: KB,       source: derived}
+  L-N2-K-RATE-FULL: {value: 11000,   unit: events/s, source: derived,  note: L-N2-K-RATE + L-N2-SUBORDINATES × L-N1-K-RATE}
+  L-N2-K-VOL-FULL:  {value: 1.1,     unit: GB/s,     source: derived,  note: L-N2-K-VOL + L-N2-SUBORDINATES × L-N1-K-VOL}
 
 retention:
   D-K-RETENTION:    {value: 48,       unit: h,        source: customer, note: скользящее окно; истёкшая K удаляется сразу}
@@ -39,6 +41,15 @@ retention:
   D-CATCHUP-TARGET: {value: 2,        unit: h,        source: customer}
   D-CATCHUP-ISOLATION: {value: 6,     unit: h,        source: derived,  note: при канале 4r; при 24 ч — 8 ч, при 48 ч — 16 ч}
   D-CAPACITY-MARGIN: {value: 1.5,     unit: ratio,    source: proposed}
+  D-K-VOLUME-N1:    {value: 1.73,     unit: TB,       source: derived,  note: (L-N1-K-VOL + записи об истечении) × D-K-RETENTION}
+  D-K-VOLUME-N2:    {value: 190.08,   unit: TB,       source: derived}
+  D-K-VOLUME-N3:    {value: 345.6,    unit: TB,       source: derived}
+  D-K-RESERVE-N1:   {value: 5.2,      unit: TB,       source: derived,  note: D-K-VOLUME × D-REPLICA-COUNT}
+  D-K-RESERVE-N2:   {value: 571,      unit: TB,       source: derived}
+  D-K-RESERVE-N3:   {value: 1042,     unit: TB,       source: derived}
+  D-K-PHYSICAL-N1:  {value: 10.4,     unit: TB,       source: derived,  note: D-K-RESERVE × D-MIRROR-COUNT}
+  D-K-PHYSICAL-N2:  {value: 1141.6,   unit: TB,       source: derived}
+  D-K-PHYSICAL-N3:  {value: 2085,     unit: TB,       source: derived}
 
 trust:
   D-CERT-LIFETIME:  {value: 192,      unit: h,        source: proposed}

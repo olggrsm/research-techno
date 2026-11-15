@@ -9,6 +9,7 @@ else
 fi
 cd "$VAULT_ROOT"
 "$PYTHON" tools/lint.py
+"$PYTHON" tools/check-params.py
 MEMORY_TODAY="${MEMORY_TODAY:-$(date +%Y-%m-%d)}" "$PYTHON" tools/rebuild_views.py
 "$PYTHON" tools/rebuild_indexes.py
 git diff --exit-code -- memory/_views memory/_indexes || {
