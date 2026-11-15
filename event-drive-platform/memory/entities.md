@@ -17,6 +17,10 @@ entities:
   description: Механизм репликации K
 - id: k-event
   description: Категория критичных событий K
+- id: k-command
+  description: K-команда — критичное событие, адресованное владельцу объекта
+- id: k-fact
+  description: K-факт — доменное событие о свершившемся изменении состояния
 ---
 
 # Entities
@@ -31,3 +35,5 @@ entities:
 - `cell` — Ячейка развёртывания → [[concept-cell|cell]]
 - `replication` — Механизм репликации K → [[concept-replication|replication]]
 - `k-event` — Категория критичных событий K → [[concept-k-event|k-event]]
+- `k-command` — K-команда → [[concept-k-command|k-command]]
+- `k-fact` — K-факт → [[concept-k-fact|k-fact]]

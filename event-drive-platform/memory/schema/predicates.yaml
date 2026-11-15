@@ -51,3 +51,31 @@ predicates:
   description: Условие на пропускную способность при догонке
 - id: primary-node-classes
   description: Классы узлов, входящие в иерархию
+- id: k-command-rate
+  description: Устойчивая скорость K-команд (адресованных владельцу объекта)
+- id: k-fact-rate
+  description: Устойчивая скорость K-фактов (доменных событий владельца)
+- id: k-command-fact-ratio
+  description: Пропорция скоростей K-команд и K-фактов
+- id: k-namespace-scheme
+  description: Схема пространств имён для команд и фактов
+- id: command-p99-local
+  description: Целевой p99 K-команды в пределах узла
+- id: command-p99-peer
+  description: Целевой p99 K-команды между соседними узлами
+- id: fact-p99-local
+  description: Целевой p99 K-факта в пределах узла
+- id: bulk-p99
+  description: Целевой p99 для событий E
+- id: t-revoke
+  description: Предельное время вступления в силу отзыва прав
+- id: expiry-record-ttl
+  description: Срок хранения записи об истечении K-команды
+- id: catchup-by-isolation
+  description: Время догонки как функция длительности изоляции
+- id: dedup-ttl-k
+  description: TTL дедупликации для K
+- id: dedup-ttl-e
+  description: TTL дедупликации для E
+- id: n0-role
+  description: Роль и возможности узла N0

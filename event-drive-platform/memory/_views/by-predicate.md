@@ -1,16 +1,28 @@
 # Facts by predicate
 
+- **bulk-p99** — `platform` = 1 с — `memory/facts/platform/bulk-p99.md`
+- **catchup-by-isolation** — `replication` = I≤6 ч: 2 ч; I=24 ч: 8 ч; I=48 ч: 16 ч при C=4r — `memory/facts/replication/catchup-by-isolation.md`
+- **command-p99-local** — `platform` = 20 мс — `memory/facts/platform/command-p99-local.md`
+- **command-p99-peer** — `platform` = 200 мс — `memory/facts/platform/command-p99-peer.md`
+- **dedup-ttl-e** — `platform` = 3 суток — `memory/facts/platform/dedup-ttl-e.md`
+- **dedup-ttl-k** — `k-fact` = 7 суток — `memory/facts/k-fact/dedup-ttl-k.md`
 - **event-size-avg** — `node-n1` = 100 КБ — `memory/facts/node-n1/event-size-avg.md`
 - **event-size-avg** — `node-n2` = 100 КБ — `memory/facts/node-n2/event-size-avg.md`
 - **event-size-avg** — `node-n3` = 10 КБ — `memory/facts/node-n3/event-size-avg.md`
+- **expiry-record-ttl** — `k-command` = 10 h — `memory/facts/k-command/expiry-record-ttl.md`
 - **expiry-record-volume-48h** — `node-n1` = 1,7 ГБ — `memory/facts/node-n1/expiry-record-volume-48h.md`
 - **expiry-record-volume-48h** — `node-n2` = 190 ГБ — `memory/facts/node-n2/expiry-record-volume-48h.md`
 - **expiry-record-volume-48h** — `node-n3` = 1,9 ТБ — `memory/facts/node-n3/expiry-record-volume-48h.md`
+- **fact-p99-local** — `platform` = 50 мс — `memory/facts/platform/fact-p99-local.md`
 - **k-buffer** — `node-n0` = скорость × 3 с; для K — энергонезависимая память или удержание отправителем — `memory/facts/node-n0/k-buffer.md`
+- **k-command-fact-ratio** — `k-command` = 1:10 (команды к фактам), применено к скорости и объёму — `memory/facts/k-command/k-command-fact-ratio.md`
+- **k-command-rate** — `k-command` = 10/с (N1), 1 000/с (N2), 10 000/с (N3) — `memory/facts/k-command/k-command-rate.md`
+- **k-fact-rate** — `k-fact` = 90/с (N1), 10 000/с (N2), 100 000/с (N3) — `memory/facts/k-fact/k-fact-rate.md`
 - **k-local-only-lag-1h** — `node-n1` = 36 ГБ — `memory/facts/node-n1/k-local-only-lag-1h.md`
 - **k-local-only-lag-1h** — `node-n2` = 3,96 ТБ — `memory/facts/node-n2/k-local-only-lag-1h.md`
 - **k-local-only-lag-1h** — `node-n3` = 7,2 ТБ — `memory/facts/node-n3/k-local-only-lag-1h.md`
 - **k-loss-policy** — `platform` = потеря K не допускается ни при каких условиях — `memory/facts/platform/k-loss-policy.md`
+- **k-namespace-scheme** — `platform` = k.cmd.<region>.<domain>.<verb>.<object>; k.fact.<region>.<domain>.<object>.<event>; e.<region>.<domain>.<stream> — `memory/facts/platform/k-namespace-scheme.md`
 - **k-rate-own** — `node-n1` = 100 событий/с — `memory/facts/node-n1/k-rate-own.md`
 - **k-rate-own** — `node-n2` = 1 000 событий/с — `memory/facts/node-n2/k-rate-own.md`
 - **k-rate-own** — `node-n3` = 100 000 событий/с — `memory/facts/node-n3/k-rate-own.md`
@@ -41,9 +53,10 @@
 - **k-volume-total** — `node-n1` = 10 МБ/с — `memory/facts/node-n1/k-volume-total.md`
 - **k-volume-total** — `node-n2` = 1,1 ГБ/с — `memory/facts/node-n2/k-volume-total.md`
 - **k-volume-total** — `node-n3` = 2 ГБ/с — `memory/facts/node-n3/k-volume-total.md`
+- **n0-role** — `node-n0` = датчик или исполнитель без диска: хранит только E (буфер 3 с в памяти), K не порождает, получает K-команду от N1 — `memory/facts/node-n0/n0-role.md`
 - **primary-node-classes** — `platform` = node-n1, node-n2, node-n3 — `memory/facts/platform/primary-node-classes.md`
-- **replication-catchup-limit** — `replication` = 2 h после восстановления связи — `memory/facts/replication/replication-catchup-limit.md`
-- **replication-catchup-requirement** — `replication` = C ≥ 25r при изоляции 48 ч; C ≥ 1,5r при изоляции ≤ 1 ч — `memory/facts/replication/replication-catchup-requirement.md`
+- **replication-catchup-limit** — `replication` = 2 h при изоляции до 6 ч; 8 h при 24 ч; 16 h при 48 ч (при канале 4r) — `memory/facts/replication/replication-catchup-limit.md`
+- **replication-catchup-requirement** — `replication` = C ≥ 4r для догонки 2 h при изоляции 6 ч; C ≥ 13r при 24 ч; C ≥ 25r при 48 ч — `memory/facts/replication/replication-catchup-requirement.md`
 - **replication-factor** — `replication` = ×3 (две копии на соседних узлах того же класса) — `memory/facts/replication/replication-factor.md`
 - **replication-lag-limit** — `replication` = 1 h при работающей связи, алерт на 30 мин — `memory/facts/replication/replication-lag-limit.md`
 - **replication-outbound** — `node-n1` = 20 МБ/с — `memory/facts/node-n1/replication-outbound.md`
@@ -55,6 +68,7 @@
 - **subordinates** — `node-n1` = нет — `memory/facts/node-n1/subordinates.md`
 - **subordinates** — `node-n2` = 100 × node-n1 (10 000 событий/с, 1 ГБ/с) — `memory/facts/node-n2/subordinates.md`
 - **subordinates** — `node-n3` = 10 × node-n2, только их собственный K (10 000 событий/с, 1 ГБ/с) — `memory/facts/node-n3/subordinates.md`
+- **t-revoke** — `platform` = 15 мин — `memory/facts/platform/t-revoke.md`
 - **taut** — `node-n0` = 3 s — `memory/facts/node-n0/taut.md`
 - **taut** — `node-n1` = 300 s — `memory/facts/node-n1/taut.md`
 - **taut** — `node-n2` = 900 s — `memory/facts/node-n2/taut.md`
