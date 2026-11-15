@@ -11,10 +11,14 @@
             "id": "84f2716017a6133b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "docs/ADR-001-architecture-approach.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ADR-001-architecture-approach"
             }
           }
         ]
@@ -75,8 +79,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,8 +198,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "39c9812c4439603c",
+  "active": "84f2716017a6133b",
   "lastOpenFiles": [
+    "docs/eda-platform-requirements.md",
+    "memory/decisions/adr-008.md",
     "memory/_indexes/graph.md",
     "memory/_views/transactions.md",
     "memory/_views/proposals.md",
@@ -208,25 +213,23 @@
     "memory/_views/by-id.md",
     "memory/_views/adr-graph.md",
     "memory/_views/graph.md",
-    "memory/decisions/adr-001.md",
-    "docs/ADR-001-architecture-approach.md",
-    "memory/decisions/adr-008.md",
+    "memory/_views/timeline.md",
+    "memory/_views/by-entity/replication.md",
+    "memory/_views/by-entity/platform.md",
+    "memory/_views/by-entity/node-n3.md",
+    "memory/_views/by-entity/node-n2.md",
+    "memory/_views/by-entity/node-n1.md",
+    "memory/_views/by-entity/node-n0.md",
+    "memory/_views/by-entity/k-fact.md",
+    "memory/_views/by-entity/k-event.md",
+    "memory/_views/by-entity/k-command.md",
+    "memory/_views/by-entity",
+    "memory/decisions/adr-010.md",
+    "memory/decisions/adr-009.md",
     "memory/decisions/adr-007.md",
-    "memory/decisions/adr-006.md",
-    "memory/decisions/adr-002.md",
-    "memory/decisions/adr-005.md",
-    "memory/decisions/adr-004.md",
-    "memory/decisions/adr-003.md",
     "memory/decisions",
-    "memory/context/tech-mirrormaker2.md",
-    "memory/context/tech-zenoh.md",
-    "memory/context/tech-pulsar.md",
-    "memory/context/tech-redpanda.md",
-    "memory/context/tech-nats-jetstream.md",
-    "memory/context/tech-kafka.md",
     "memory/schema/decision-index.schema.yaml",
     "memory/schema/decision.schema.yaml",
-    "memory/_views/by-entity",
     "memory/events/2026-11-06",
     "memory/events",
     "memory/facts/replication",
