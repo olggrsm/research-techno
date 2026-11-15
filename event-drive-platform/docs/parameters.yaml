@@ -1,0 +1,58 @@
+# Параметры платформы: единственный источник числовых значений
+#
+# Значения по умолчанию получены от заказчика 2026-11-06 и 2026-11-15, если не
+# помечено иное. ADR ссылаются на идентификаторы, стенд и тесты читают файл:
+# менять пороги нужно здесь, а не в тексте решений.
+#
+# source: customer — задано заказчиком; proposed — предложение документа,
+# калибруется замерами; derived — вычисляется из других параметров.
+
+meta:
+  version: 1
+  updated: "2026-11-15"
+
+load:
+  L-N1-K-RATE:      {value: 100,      unit: events/s, source: customer, note: собственная устойчивая скорость K}
+  L-N1-K-VOL:       {value: 10,       unit: MB/s,     source: customer}
+  L-N2-K-RATE:      {value: 1000,     unit: events/s, source: customer}
+  L-N2-K-VOL:       {value: 100,      unit: MB/s,     source: customer}
+  L-N3-K-RATE:      {value: 100000,   unit: events/s, source: customer, note: собственная скорость N3 без K от N2}
+  L-N3-K-VOL:       {value: 1,        unit: GB/s,     source: customer}
+  L-N2-SUBORDINATES: {value: 100,     unit: nodes,    source: customer, note: узлов N1 в одном N2}
+  L-N3-SUBORDINATES: {value: 10,      unit: nodes,    source: customer, note: узлов N2 в одном N3}
+  L-N3-K-RATE-FULL: {value: 110000,   unit: events/s, source: derived,  note: L-N3-K-RATE + N2-SUBORDINATES × L-N2-K-RATE}
+  L-N3-K-VOL-FULL:  {value: 2,        unit: GB/s,     source: derived,  note: L-N3-K-VOL + 10 × L-N2-K-VOL}
+  L-CMD-FACT-RATIO: {value: 0.1,      unit: ratio,    source: customer, note: команды к фактам, применено к скорости и объёму}
+  L-E-VOL-SHARE:    {value: 0.1,      unit: ratio,    source: proposed, note: объём E в долях от объёма K, не задан заказчиком}
+  L-EVENT-SIZE-N1N2: {value: 100,     unit: KB,       source: derived}
+  L-EVENT-SIZE-N3:  {value: 10,       unit: KB,       source: derived}
+
+retention:
+  D-K-RETENTION:    {value: 48,       unit: h,        source: customer, note: скользящее окно; истёкшая K удаляется сразу}
+  D-K-REFUSAL:      {value: 96,       unit: h,        source: customer, note: после этого простоя отказ приёма K допустим}
+  D-EXPIRY-RECORD-SIZE: {value: 100,  unit: B,        source: customer}
+  D-EXPIRY-RECORD-TTL:  {value: 10,   unit: h,        source: customer}
+  D-REPLICA-COUNT:  {value: 3,        unit: copies,   source: customer, note: на разных узлах класса}
+  D-MIRROR-COUNT:   {value: 2,        unit: copies,   source: customer, note: локально на узле}
+  D-LAG-LIMIT:      {value: 1,        unit: h,        source: customer, note: при работающей связи}
+  D-LAG-ALERT:      {value: 30,       unit: min,      source: proposed}
+  D-CATCHUP-TARGET: {value: 2,        unit: h,        source: customer}
+  D-CATCHUP-ISOLATION: {value: 6,     unit: h,        source: derived,  note: при канале 4r; при 24 ч — 8 ч, при 48 ч — 16 ч}
+  D-CAPACITY-MARGIN: {value: 1.5,     unit: ratio,    source: proposed}
+
+trust:
+  D-CERT-LIFETIME:  {value: 192,      unit: h,        source: proposed}
+  D-POLICY-CACHE:   {value: 96,       unit: h,        source: customer}
+  D-TREVOKE:        {value: 15,       unit: min,      source: customer}
+
+qos:
+  S-COMMAND-P99-LOCAL: {value: 20,  unit: ms, source: proposed}
+  S-COMMAND-P99-PEER:  {value: 200, unit: ms, source: proposed}
+  S-FACT-P99-LOCAL:    {value: 50,  unit: ms, source: proposed}
+  S-BULK-P99:          {value: 1,   unit: s,  source: proposed}
+
+acceptance:
+  A-FAULT-DURATION:  {value: 4,     unit: h,  source: proposed, note: минимальная длительность каждого сценария под нагрузкой}
+  A-SOAK-DURATION:   {value: 12,    unit: h,  source: proposed}
+  A-LOSS-TOLERANCE:  {value: 0,     unit: events, source: customer, note: потерянных подтверждённых K}
+  A-DEDUP-TOLERANCE: {value: 0,     unit: events, source: customer, note: недедуплицированных дублей}
